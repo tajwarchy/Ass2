@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffcccc;
+}
+
+.quotes {
+    background-color: #ffffe6;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: grey 10px 10px 20px;
+}
+
+
+.color-btn {
+    width: 50px;
+    height: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+#color-select {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#red {
+    background-color: red;
+    margin: 0 5px;
+}
+
+#green {
+    background-color: green;
+    margin: 0 5px;
+}
+
+#blue {
+    background-color: blue;
+    margin: 0 5px;
+}
+
+#orange {
+    background-color: orange;
+    margin: 0 5px;
+}
+
+.add-red {
+    background-color: red;
+    color: white;
+}
+
+.add-green {
+    background-color: green;
+    color: white;
+}
+
+.add-blue {
+    background-color: blue;
+    color: white;
+}
+
+.add-orange {
+    background-color: orange;
+    color: black;
+}
+
+.quotes h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#quote-section h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+.convert {
+    background-color: #ffffe6;
+    width: 500px;
+    height: 50px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: grey 10px 10px 20px;
+}
+
+.text-area {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.magic {
+    width: 800px;
+}
+
+.magic-button {
+    display: flex;
+    justify-content: space-around;
+}
+
+.series {
+    background-color: #ffffe6;
+    width: 500px;
+    height: 230px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: grey 10px 10px 20px;
+}
+
+.magic {
+    background-color: #ffffe6;
+    width: 800px;
+    height: 380px;
+    margin: 50px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: grey 10px 10px 20px;
+}
+
+.magic-button {
+    margin: 20px 0;
+}
+
+.magic-button button {
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}

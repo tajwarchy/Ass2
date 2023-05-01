@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Javascript Programming</title>
+</head>
+
+<body>
+    <Main>
+        <div id="quote-section">
+            <h1>Quotes by famous figures!</h1>
+            <div id="random-quote" class="quotes">
+            </div>
+            <div id="color-select">
+                <div onclick="changeToRed()" class="color-btn" id="red">Red</div>
+                <div onclick="changeToGreen()" class="color-btn" id="green">Green</div>
+                <div onclick="changeToBlue()" class="color-btn" id="blue">Blue</div>
+                <div onclick="changeToOrange()" class="color-btn" id="orange">Orange</div>
+            </div>
+        </div>
+        <!-- Conversion section -->
+        <div id="convert-section" class="convert">
+            Convert: <input id="convert-input" type="text">
+            <select id="my-select">
+                <option value="kg to lb">kg to lb</option>
+                <option value="lb to kg">lb to kg</option>
+            </select>
+            <button onclick="conversion()" type="submit">Go</button>
+            <p id="value"></p>
+        </div>
+        <!-- Series section -->
+        <div id="series-section" class="series">
+            <div id="series-input">
+                Input Series of Number: <input oninput="seriesSection()" id="series-text" type="text">
+            </div>
+            <div id="series-output">
+                <p>Max: 0</p>
+                <p>Min: 0</p>
+                <p>Sum: 0</p>
+                <p>Average: 0</p>
+                <p>Reverse Order: 0</p>
+            </div>
+        </div>
+        <!-- Magic section -->
+        <div id="magic-section" class="magic">
+            <h3>Magic!</h3>
+            <textarea id="magic-text" class="text-area" cols="75" rows="10"></textarea>
+            <div class="magic-button">
+                <button onclick="type1()" type="submit">Clear it</button>
+                <button onclick="type2()" type="submit">Capitalize</button>
+                <button onclick="type3()" type="submit">Sort</button>
+                <button onclick="type4()" type="submit">Reverse</button>
+                <button onclick="type5()" type="submit">Strip Blank</button>
+                <button onclick="type6()" type="submit">Add Numbers</button>
+                <button onclick="type7()" type="submit">Shuffle</button>
+            </div>
+        </div>
+    </Main>
+    <!-- JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>
